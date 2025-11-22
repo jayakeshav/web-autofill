@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Quick Link Copier</title>
+
+  <style>
+    body {
+      font-family: "Inter", sans-serif;
+      width: 240px;
+      padding: 15px;
+      background: #f8fafc;
+      margin: 0;
+    }
+
+    h3 {
+      margin: 0 0 12px 0;
+      font-size: 18px;
+      font-weight: 600;
+      text-align: center;
+      color: #1e293b;
+    }
+
+    .btn {
+      width: 100%;
+      padding: 12px;
+      margin: 8px 0;
+
+      background: white;
+      border: 1px solid #d1d5db;
+      border-radius: 8px;
+
+      font-size: 15px;
+      text-align: left;
+      color: #111827;
+      cursor: pointer;
+
+      transition: all 0.15s ease;
+    }
+
+    .btn:hover {
+      background: #eef2f7;
+      border-color: #c5c9d3;
+      transform: translateY(-1px);
+    }
+
+    .btn:active {
+      transform: translateY(0);
+    }
+  </style>
+
+</head>
+
+<body>
+  <h3>Quick Link Copier</h3>
+
+  <button class="btn" data-link="https://www.linkedin.com/in/jayakeshavachandrakotha/">
+    LinkedIn
+  </button>
+
+  <button class="btn" data-link="https://github.com/jayakeshav">
+    GitHub
+  </button>
+
+  <button class="btn" data-link="https://example.com/your-portfolio">
+    Portfolio
+  </button>
+
+  <button class="btn" data-link="mailto:jayakeshav.work@gmail.com">
+    Email
+  </button>
+
+  <script src="popup.js"></script>
+</body>
+</html>
