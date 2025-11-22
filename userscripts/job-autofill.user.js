@@ -1,15 +1,16 @@
 // ==UserScript==
-// @name         Job Autofill — quick link expander
+// @name         Job Autofill — quick link expander - Jayakeshav
 // @namespace    http://tampermonkey.net/
 // @version      0.1
-// @description  Type short commands (e.g. /li, /gh) and they'll be replaced with your links in inputs, textareas and contentEditable fields.
-// @author       You
+// @description  Type short commands (e.g. /li, /gh) and they'll be replaced with your links.
 // @match        *://*/*
 // @grant        GM_getValue
 // @grant        GM_setValue
 // @grant        GM_registerMenuCommand
 // @run-at       document-end
+// @inject-into  page
 // ==/UserScript==
+
 
 (function() {
     'use strict';
